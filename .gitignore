@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model checkpoints and weights (large files)
+*.pth
+*.pt
+*.onnx
+*.h5
+checkpoints/
+models/*.pth
+models/*.pt
+
+# Dataset and generated images (large files)
+colored_shapes_dataset/
+training_samples/
+evaluation_results/
+*.png
+*.jpg
+*.jpeg
+!README_images/
+
+# Logs
+*.log
+logs/
+tensorboard_logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
